@@ -4,7 +4,7 @@ app.use(express.json())
 
 
 app.get("/",(req,res)=>{
-    res.send("hello world")
+    res.send("hello worlld pls tells me where you are")
 })
 
 
