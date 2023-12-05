@@ -8,5 +8,5 @@ const port=process.env.PORT||8000
 
 app.listen(port,async ()=>{
    await connect
-   console.log(`listening on port${port}`)
+   console.log(`listening on port ${port}`)
 })
